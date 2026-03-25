@@ -1,0 +1,72 @@
+body {
+  background-color: #f5f7fb;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+/* Sidebar */
+.sidebar {
+  width: 220px;
+  height: 100vh;
+  position: fixed;
+}
+
+.sidebar .nav-item {
+  padding: 10px;
+  cursor: pointer;
+}
+
+.sidebar .nav-item:hover {
+  background-color: #343a40;
+}
+
+/* Main */
+.main-content {
+  margin-left: 220px;
+}
+
+/* Cards */
+.card {
+  border-radius: 12px;
+  border: none;
+}
+
+/* Buttons */
+.btn-primary {
+  background-color: #4e73df;
+  border: none;
+}
+
+/* Task hover */
+.list-group-item:hover {
+  background-color: #f1f1f1;
+}
+
+
+.nav-link:hover {
+  background-color: #495057;
+  border-radius: 5px;
+}
+
+/* Sidebar links box design */
+.sidebar-link {
+  display: block;
+  padding: 10px 15px;
+  color: #e2e8f0;
+  text-decoration: none;
+  border-radius: 8px;
+  background: transparent;
+  transition: 0.3s;
+}
+
+/* Hover effect */
+.sidebar-link:hover {
+  background: #374151;
+  color: #fff;
+}
+
+/* Active (clicked page) */
+.sidebar-link.active {
+  background: #e2e6ec;
+  color: #fff;
+  font-weight: bold;
+}
